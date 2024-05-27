@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+:root {
+    --cor-pricipal: #ffffff;
+    --cor-secundaria: #C0C0C0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #00030C;
+    color: var(--cor-pricipal);
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.principal{
+    background-image: url("./img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__box{
+    margin: 0 10%;
+}
+
+.container__titulo{
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.container__image{
+    margin: 1rem 0 2rem 0;
+}
+
+.container__botao{
+    background-color: #167BF7;
+    padding: 1.25rem;
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--cor-pricipal);
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.botao-secundario{
+    background-color: transparent;
+    border: 2px solid var(--cor-pricipal);
+}
+
+.container__aviso{
+    font-size: 0.75rem;
+    color: var(--cor-secundaria);
+}
+
+.secundario{
+    align-items: center;
+    margin: 0 10rem;
+}
+
+.container__descricao{
+    padding: 2rem;
+}
+
+.secundario__image {
+    width: 80%;
+}
+
+.descricao__titulo{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0.1rem;
+}
+
+.descricao__texto{
+    color: var(--cor-secundaria);
+}
+
+.secundario__botao{
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.dispositivos{
+    text-align: center;
+    
+}
+
+.dispositivos__titulo{
+    font-size: 3rem;
+    
+}
+
+.dispositivos__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 3rem 0 5rem 0;
+}
+
+.lista__item{
+    font-size: 2rem;
+}
+
+.footer{
+    text-align: center;
+}
+
+.footer__lista{
+    display:flex;
+    list-style-type: none;
+    gap: 12px;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.lista__link{
+   text-decoration: none;
+   color: var(--cor-principal);
+}
+
+.footer__texto{
+    font-size: 0.87rem;
+    color: var(--cor-secundaria);
+    margin: 1.5rem 4rem;
+}
+
+
