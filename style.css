@@ -101,7 +101,6 @@ body{
 
 .dispositivos__titulo{
     font-size: 3rem;
-    
 }
 
 .dispositivos__lista{
@@ -136,6 +135,63 @@ body{
     font-size: 0.87rem;
     color: var(--cor-secundaria);
     margin: 1.5rem 4rem;
+}
+
+@media (max-width: 768px) {
+
+    .principal{
+        background-image: none;
+    }
+
+    .container{
+        display: block;
+    }
+
+    .container__titulo{
+        font-size: 1.5rem;
+    }
+
+    .container__image{
+        width: 60vw;  
+    }
+
+    .container__box{
+        margin: 6rem 2rem;
+    }
+
+    .descricao__titulo, .dispositivos__titulo{
+        font-size: 2rem;
+    }
+
+    .secundario{
+        margin: 0;
+        text-align: center;
+    }
+
+    .secundario__image{
+        width: 60vw;
+    }
+
+    .dispositivos__lista{
+        display: block;
+    }
+
+    .dispositivos__image{
+        width: 60vw;
+    }
+
+    .lista__item{
+        font-size: 1.5rem;
+    }
+
+    .footer__lista{
+        display: block;
+    }
+
+    .footer__texto{
+        margin: 1.5rem 2rem;
+        font-size: 0.70rem;
+    }
 }
 
 
